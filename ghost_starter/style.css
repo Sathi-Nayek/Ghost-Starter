@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo_image{
+     height:30px;
+     width:30px;
+     background-color: aliceblue;
+}
+.nav_links{
+    display:flex;
+    gap:20px;
+    list-style:none;
+    padding-right:5%;
+    
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:15px 40px;
+    position:fixed;
+    background-color: aliceblue;
+    width:100%;
+
+}
+.logo{
+    font-weight: bold;
+    font-size:22px;
+    align-items:center;
+    display: flex;
+}
+.nav_links a{
+    text-decoration:none;
+    color:black;
+
+}
+
+/* HEADER SECTION */
+.highlight{
+    color:green;
+}
+.hero_section{
+    background-image: url('images/ghost_1.jpg');
+    height:90vh;
+    background-size: cover;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color:aliceblue;
+    background-attachment: fixed;
+}
+.since{
+    color:orange;
+    font-style: italic;
+}
+h1{
+    font-size:3rem;
+    font-weight:bold;
+}
+.subtext{
+    margin:10px;
+    font-size:1.2rem;
+}
+
+.hero_button{
+    background-color:orange;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius: 20px;
+    font-size:1rem;
+    cursor: pointer;
+}
+
+.hero_button :hover{
+    background-color: darkorange;
+}
+/* specialities section */
+     
+.Specialities_container{
+    display:flex;
+    gap:30px;
+    margin:40px;
+
+}
+.speciality img{
+    width:100%;
+    height:180px;
+    border-radius:10px;
+    border-bottom:2px solid orange;
+}
+
+.Specialities{
+    text-align:center;
+    padding:40px 0px;
+}
+.Specialities h2{
+    font-size:2rem;
+    background:linear-gradient(to right,orange 40%, green 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+.speciality{
+    box-shadow: 0 9px 10px grey;
+    border-radius: 10px;
+}
+.speciality p{
+    margin: 15px;
+}
+
+/* about section */
+.about_section{
+    display:flex;
+    align-items: center;
+    padding:60px;
+    background-color: lightsalmon;
+}
+.about_content {
+    padding-right:40px;
+    max-width: 50%;
+}
+.about_content p{
+    color:grey;
+    margin-top:10px;
+    line-height:1.6;
+}
+.about_image img{
+    border-radius: 50%;
+}
+
+/* Testimonial Section */
+.testimonial img{
+    height:80px;
+    width:80px;
+    border-radius:50%;
+   
+}
+.testimonials{
+    display:flex;
+    padding:50px 20px;
+}
+.testimonals{
+    text-align: center;
+}
+.quote{
+    font-style:italic;
+    margin-bottom:10px
+}
+.name{
+    color:orangered;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Footer Section */
+.social_icon img{
+    
+   height:30px;
+   width:30px;
+ margin-top:20px;
+    background-color: aliceblue;
+    padding: 2px;
+   border-radius:50%;
+}
+
+.social_icon img:hover{
+     background-color: orange;
+}
+.footer_container{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.footer{
+    background-color: black;
+    color:azure;
+    text-align: center;
+}
+.footer_logo{
+    display:flex;
+    align-items: center;
+    font-weight:bold;
+    font-size: 1.5rem;
+    gap:15px;
+    padding:10px 20px;
+    position:relative;
+    left:50px;
+}
+
+.footer_section h4{
+    color:orange;
+    font-size:1.3rem;
+    margin-bottom: 15px;
+    padding-left: 300px;
+}
+.footer_section p{
+    padding:5px 0;
+    cursor:pointer;
+    padding-left: 300px;;
+}
+.call_button{
+    background-color: orange;
+    color:white;
+    border:none;
+    padding: 8px 24px;;
+    border-radius: 25px;
+    cursor:pointer;
+    font-size:1 rem;
+    font-weight:bold;
+    transition: 0.5s;
+}
+.call_button:hover{
+    background-color: yellowgreen;
+}
+.footer_section{
+    flex:1;
+    margin:30px;
+}
+
